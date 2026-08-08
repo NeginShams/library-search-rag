@@ -1,0 +1,7 @@
+myenv\Scripts\activate
+
+fastapi dev main.py
+
+uvicorn app.main:app
+
+docker compose up -d
